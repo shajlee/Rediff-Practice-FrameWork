@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-26T21:24:44 PDT" name="RediffFrameWorkSuite" finished-at="2023-06-26T21:27:45 PDT" duration-ms="180830">
+    <groups>
+    </groups>
+    <test started-at="2023-06-26T21:24:44 PDT" name="RediffFrameWorkTest" finished-at="2023-06-26T21:27:45 PDT" duration-ms="180830">
+      <class name="com.qa.rediff.testcases.Rediff_Inboxpage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Inboxpage_Test@43df23d3]" started-at="2023-06-26T21:26:32 PDT" name="setUp" finished-at="2023-06-26T21:26:38 PDT" duration-ms="5831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateInboxPageWithInboxButtonDisplay()[pri:0, instance:com.qa.rediff.testcases.Rediff_Inboxpage_Test@43df23d3]" started-at="2023-06-26T21:26:38 PDT" name="validateInboxPageWithInboxButtonDisplay" finished-at="2023-06-26T21:26:46 PDT" duration-ms="7692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInboxPageWithInboxButtonDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Inboxpage_Test@43df23d3]" started-at="2023-06-26T21:26:46 PDT" name="tearDown" finished-at="2023-06-26T21:26:46 PDT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.Rediff_Inboxpage_Test -->
+      <class name="com.qa.rediff.testcases.Rediff_Logoutpage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Logoutpage_Test@6d60fe40]" started-at="2023-06-26T21:26:46 PDT" name="setUp" finished-at="2023-06-26T21:26:52 PDT" duration-ms="5500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogoutFuctionalityWithLogoutMessage()[pri:0, instance:com.qa.rediff.testcases.Rediff_Logoutpage_Test@6d60fe40]" started-at="2023-06-26T21:26:52 PDT" name="validateLogoutFuctionalityWithLogoutMessage" finished-at="2023-06-26T21:27:03 PDT" duration-ms="11009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoutFuctionalityWithLogoutMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Logoutpage_Test@6d60fe40]" started-at="2023-06-26T21:27:03 PDT" name="tearDown" finished-at="2023-06-26T21:27:04 PDT" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.Rediff_Logoutpage_Test -->
+      <class name="com.qa.rediff.testcases.Rediff_Loginpage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:03 PDT" name="setUp" finished-at="2023-06-26T21:25:08 PDT" duration-ms="5636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:08 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="RediffDataProviderSupply" finished-at="2023-06-26T21:25:17 PDT" duration-ms="8975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:17 PDT" name="tearDown" finished-at="2023-06-26T21:25:18 PDT" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:18 PDT" name="setUp" finished-at="2023-06-26T21:25:24 PDT" duration-ms="5924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:24 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="RediffDataProviderSupply" finished-at="2023-06-26T21:25:31 PDT" duration-ms="7265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:31 PDT" name="tearDown" finished-at="2023-06-26T21:25:32 PDT" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:32 PDT" name="setUp" finished-at="2023-06-26T21:25:37 PDT" duration-ms="5830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:37 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="RediffDataProviderSupply" finished-at="2023-06-26T21:25:45 PDT" duration-ms="7923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sarthakkumarpanda@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:45 PDT" name="tearDown" finished-at="2023-06-26T21:25:46 PDT" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:46 PDT" name="setUp" finished-at="2023-06-26T21:25:52 PDT" duration-ms="5566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:25:52 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="RediffDataProviderSupply" finished-at="2023-06-26T21:26:01 PDT" duration-ms="9865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamedboudguig@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Medbdg0707@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:01 PDT" name="tearDown" finished-at="2023-06-26T21:26:02 PDT" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:02 PDT" name="setUp" finished-at="2023-06-26T21:26:09 PDT" duration-ms="7076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInValidCredentials()[pri:2, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:09 PDT" name="loginWithInValidCredentials" finished-at="2023-06-26T21:26:10 PDT" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:10 PDT" name="tearDown" finished-at="2023-06-26T21:26:11 PDT" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:11 PDT" name="setUp" finished-at="2023-06-26T21:26:16 PDT" duration-ms="5550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidUsernameInvalidPassword()[pri:3, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:16 PDT" name="loginWithValidUsernameInvalidPassword" finished-at="2023-06-26T21:26:18 PDT" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:18 PDT" name="tearDown" finished-at="2023-06-26T21:26:18 PDT" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:18 PDT" name="setUp" finished-at="2023-06-26T21:26:24 PDT" duration-ms="5793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidUsernameValidPassword()[pri:4, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:24 PDT" name="loginWithInvalidUsernameValidPassword" finished-at="2023-06-26T21:26:25 PDT" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:25 PDT" name="tearDown" finished-at="2023-06-26T21:26:26 PDT" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:26 PDT" name="setUp" finished-at="2023-06-26T21:26:32 PDT" duration-ms="5839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithNoCredentials()[pri:5, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:32 PDT" name="loginWithNoCredentials" finished-at="2023-06-26T21:26:32 PDT" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Loginpage_Test@359df09a]" started-at="2023-06-26T21:26:32 PDT" name="tearDown" finished-at="2023-06-26T21:26:32 PDT" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.Rediff_Loginpage_Test -->
+      <class name="com.qa.rediff.testcases.Rediff_Homepage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Homepage_Test@792b749c]" started-at="2023-06-26T21:27:04 PDT" name="setUp" finished-at="2023-06-26T21:27:09 PDT" duration-ms="5743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validityOfHomePageButton()[pri:0, instance:com.qa.rediff.testcases.Rediff_Homepage_Test@792b749c]" started-at="2023-06-26T21:27:09 PDT" name="validityOfHomePageButton" finished-at="2023-06-26T21:27:21 PDT" duration-ms="11920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validityOfHomePageButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Homepage_Test@792b749c]" started-at="2023-06-26T21:27:21 PDT" name="tearDown" finished-at="2023-06-26T21:27:22 PDT" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.Rediff_Homepage_Test -->
+      <class name="com.qa.rediff.testcases.Rediff_Landingpage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Landingpage_Test@7f485fda]" started-at="2023-06-26T21:24:45 PDT" name="setUp" finished-at="2023-06-26T21:24:49 PDT" duration-ms="4765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitleAndCurrentUrl()[pri:1, instance:com.qa.rediff.testcases.Rediff_Landingpage_Test@7f485fda]" started-at="2023-06-26T21:24:49 PDT" name="validateTitleAndCurrentUrl" finished-at="2023-06-26T21:24:49 PDT" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleAndCurrentUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Landingpage_Test@7f485fda]" started-at="2023-06-26T21:24:49 PDT" name="tearDown" finished-at="2023-06-26T21:24:50 PDT" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Landingpage_Test@7f485fda]" started-at="2023-06-26T21:24:50 PDT" name="setUp" finished-at="2023-06-26T21:24:54 PDT" duration-ms="3582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="presenceOfSignInLink()[pri:2, instance:com.qa.rediff.testcases.Rediff_Landingpage_Test@7f485fda]" started-at="2023-06-26T21:24:54 PDT" name="presenceOfSignInLink" finished-at="2023-06-26T21:24:54 PDT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- presenceOfSignInLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Landingpage_Test@7f485fda]" started-at="2023-06-26T21:24:54 PDT" name="tearDown" finished-at="2023-06-26T21:24:54 PDT" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Landingpage_Test@7f485fda]" started-at="2023-06-26T21:24:54 PDT" name="setUp" finished-at="2023-06-26T21:24:58 PDT" duration-ms="3628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="presenceofRediffLogo()[pri:3, instance:com.qa.rediff.testcases.Rediff_Landingpage_Test@7f485fda]" started-at="2023-06-26T21:24:58 PDT" name="presenceofRediffLogo" finished-at="2023-06-26T21:24:58 PDT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- presenceofRediffLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Landingpage_Test@7f485fda]" started-at="2023-06-26T21:24:58 PDT" name="tearDown" finished-at="2023-06-26T21:24:58 PDT" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.Rediff_Landingpage_Test -->
+      <class name="com.qa.rediff.testcases.Rediff_SignInLink_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_SignInLink_Test@17fc391b]" started-at="2023-06-26T21:24:58 PDT" name="setUp" finished-at="2023-06-26T21:25:02 PDT" duration-ms="3479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="presenceofSignInLink()[pri:0, instance:com.qa.rediff.testcases.Rediff_SignInLink_Test@17fc391b]" started-at="2023-06-26T21:25:02 PDT" name="presenceofSignInLink" finished-at="2023-06-26T21:25:02 PDT" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- presenceofSignInLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_SignInLink_Test@17fc391b]" started-at="2023-06-26T21:25:02 PDT" name="tearDown" finished-at="2023-06-26T21:25:03 PDT" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.Rediff_SignInLink_Test -->
+      <class name="com.qa.rediff.testcases.Rediff_Links_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rediff.testcases.Rediff_Links_Test@23e84203]" started-at="2023-06-26T21:27:22 PDT" name="setUp" finished-at="2023-06-26T21:27:26 PDT" duration-ms="3818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLinksPresentOnLandingPage()[pri:0, instance:com.qa.rediff.testcases.Rediff_Links_Test@23e84203]" started-at="2023-06-26T21:27:26 PDT" name="validateLinksPresentOnLandingPage" finished-at="2023-06-26T21:27:44 PDT" duration-ms="18813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinksPresentOnLandingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.Rediff_Links_Test@23e84203]" started-at="2023-06-26T21:27:44 PDT" name="tearDown" finished-at="2023-06-26T21:27:45 PDT" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.Rediff_Links_Test -->
+    </test> <!-- RediffFrameWorkTest -->
+  </suite> <!-- RediffFrameWorkSuite -->
+</testng-results>

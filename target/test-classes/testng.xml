@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RediffFrameWorkSuite">
+
+<listeners>
+      <listener class-name = "com.qa.rediff.listeners.My_Listeners"/>
+</listeners>
+  
+  <test  name="RediffFrameWorkTest">
+    <classes>
+    <class name="com.qa.rediff.testcases.Rediff_Landingpage_Test"/>
+    <class name="com.qa.rediff.testcases.Rediff_SignInLink_Test"/>
+    <class name="com.qa.rediff.testcases.Rediff_Loginpage_Test"/>
+    <class name="com.qa.rediff.testcases.Rediff_Inboxpage_Test"/>
+    <class name="com.qa.rediff.testcases.Rediff_Logoutpage_Test"/>
+    <class name="com.qa.rediff.testcases.Rediff_Homepage_Test"/>
+    <class name="com.qa.rediff.testcases.Rediff_Links_Test"/>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
